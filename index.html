@@ -27,6 +27,8 @@
                     <li>Random Forest</li>
                 </ul>
             </li>
+            <h3>Linear Regression</h3>
+            <p>Linear Regression is a machine learning algorithm which uses the line of best fit to predict values. The <strong>line of best fit</strong> is the line which has the lowest amount of residuals, meaning the line with the lowest error.</p>
             <li>Classification- It is the type of machine learning where we want to predict categorical values, often replacing them with their encoded version.
                 <ul>
                     <li>Logistic Regression</li>
@@ -42,5 +44,34 @@
     <p>This is a classification algorithm which uses the sigmoid function to calculate values for different data points and then decides upon a decision boundary, above that boundary the prediction is yes, otherwise it is no.</p>
     <p>Here is the sigmoid function and its distribution</p>
     <img src="sigmoid.png" alt="sigmoid function">
+    <h2>Error Evaluation</h2>
+    <p>
+        Error Evaluation is one of the most important parts in machine learning, there are different parameters for evaluating errors in different models.
+        <ul>
+            <li>Regression<ul>
+                <li>
+                    Mean Squared Error- In this we take sum of the squares of all the residuals.
+                    <img src="mse.png">
+                </li>
+                <li>
+                    Root Mean Squared Error- This is the square root of MSE, we use this to get the MSE in terms of the data points.
+                    <img src="rmse.png">
+                </li>
+                <li>
+                    Mean Absolute Error- In this we take the Absolute value of the residuals and sum them.
+                    <img src="mae.png">
+                </li>
+            </ul></li>
+            <li>Classification
+                <ul>
+                    <li>Accuracy</li>
+                    <li>Recall</li>
+                    <li>F1-score</li>
+                    <li>Precision</li>
+                    <li>Confusion Matrix</li>
+                </ul>
+            </li>
+        </ul>
+    </p>
 </body>
 </html>
